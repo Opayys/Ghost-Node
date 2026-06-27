@@ -1,0 +1,20 @@
+{
+  "name": "ghostnode-v1",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/agents/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "dev:pulse": "npm run dev --workspace=packages/agents/onchain-pulse",
+    "dev:writer": "npm run dev --workspace=packages/agents/report-writer"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
