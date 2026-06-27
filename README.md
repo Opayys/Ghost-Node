@@ -17,16 +17,15 @@ di setiap transaksi.
 - **SDK**: TypeScript
 - **Frontend**: Next.js + Wagmi
 
-## Project Structure
 GhostNode_v1/
 ├── packages/
-│   ├── contracts/        # Solidity smart contracts (Foundry)
-│   ├── sdk/              # TypeScript SDK untuk developer
+│   ├── contracts/         # Solidity smart contracts (Foundry)
+│   ├── sdk/               # TypeScript SDK untuk developer
 │   └── agents/
-│       ├── onchain-pulse/  # Demo agent: data monitoring
-│       └── report-writer/  # Demo agent: report generation
+│       ├── onchain-pulse/ # Demo agent: data monitoring
+│       └── report-writer/ # Demo agent: report generation
 └── apps/
-└── frontend/         # Next.js marketplace UI
+    └── frontend/          # Next.js marketplace UI
 
 ## Quick Start
 
