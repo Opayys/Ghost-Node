@@ -17,6 +17,9 @@ di setiap transaksi.
 - **SDK**: TypeScript
 - **Frontend**: Next.js + Wagmi
 
+G## Project Structure
+
+```text
 GhostNode_v1/
 ├── packages/
 │   ├── contracts/         # Solidity smart contracts (Foundry)
