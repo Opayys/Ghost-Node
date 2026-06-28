@@ -1,0 +1,21 @@
+{
+  "name": "@ghostnode/agent-report-writer",
+  "version": "1.0.0",
+  "description": "ReportWriter - GhostNode demo agent that hires OnChainPulse and generates reports",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ghostnode/sdk": "*",
+    "viem": "^2.9.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
